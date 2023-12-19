@@ -1,0 +1,28 @@
+baseURL = "https://yalunpeng.com/"
+
+defaultContentLanguage = "zh"
+languageCode           = "zh"
+
+title = "yalunpeng"
+
+copyright = '备案号: 蜀ICP备17003301号-1'
+
+disableKinds = ["taxonomy", "term"]
+enableEmoji  = true
+
+[author]
+    headline = "A Neuroscience PhD Candidate . 💬"
+    image    = "logo.jpeg"
+    name     = "彭雅伦(Yalun Peng)"
+
+    links = [
+        { facebook = { href = "mailto:yp1017@nyu.edu", "text" = "yp1017@nyu.edu", icon = "flickr" } },
+    #    { github = { href = "https://github.com/akushonkamen", text = "GitHub", target = "_self" } },
+        { stack-exchange = { href = "https://alpha-quant.com.cn", text = "作品", target = "_self", icon = "stack-exchange" } },
+        { google = { href = "https://resume.yalunpeng.com/", text = "简历", target = "_self", icon = "instagram" } },
+    ]
+
+[module]
+    [module.hugoVersion]
+        extended = false
+        min      = "0.86.1"
